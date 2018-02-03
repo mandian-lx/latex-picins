@@ -10,6 +10,9 @@ Requires: 	texlive-latex texlive-collection-latex
 BuildRequires:	texlive-latex texlive-collection-latex
 BuildArch:	noarch
 
+Requires(post):		texlive-kpathsea.bin
+Requires(postun):	texlive-kpathsea.bin
+
 %description
 LaTeX package allowing to wrap text around an inserted picture
 
