@@ -6,8 +6,8 @@ License: 	Public Domain
 Group: 		Publishing
 URL:		https://ctan.org/pkg/picins
 Source0: 	http://mirrors.ctan.org/macros/latex209/contrib/picins.zip
-Requires: 	texlive-latex texlive-collection-latex
-BuildRequires:	texlive-latex texlive-collection-latex
+Requires: 	texlive-latex texlive-collection-latex texlive-kpathsea.bin
+BuildRequires:	texlive-latex texlive-collection-latex texlive-kpathsea.bin
 BuildArch:	noarch
 
 Requires(post):		texlive-kpathsea.bin
